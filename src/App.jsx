@@ -48,7 +48,7 @@ useEffect(() => {
   const skills = [
     "Java", "Python", "JavaScript",
     "React", "HTML5", "CSS3",
-    "SQL / MySQL", "Git & GitHub", "Data Structures & Algorithms"
+    "SQL / MySQL", "Git & GitHub", "Data Structures & Algorithms","django , fast api , rest api"
   ];
 
   return (
