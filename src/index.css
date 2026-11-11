@@ -1,6 +1,12 @@
-
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
@@ -9,18 +15,21 @@ body {
   min-height: 100vh;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
 button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
-.logo {
-  font-size: 22px;
-  font-weight: 800;
-  white-space: nowrap;
-}
 
-@media (max-width: 380px) {
-  .logo {
-    font-size: 18px;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
