@@ -8,8 +8,8 @@
   --card: rgba(18, 18, 24, 0.62);
   --text: #f1f5f9;
   --muted: #94a3b8;
-  --accent: #ffcc00;
-  --accent-2: #ff8c00;
+  --accent: #7fb6fc;
+  --accent-2: #a3a6aa;
   --border: rgba(148, 163, 184, 0.16);
   --gutter: max(7%, calc((100vw - 1180px) / 2));
   --mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
